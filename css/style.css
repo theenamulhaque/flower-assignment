@@ -248,3 +248,15 @@ input[type="text"]:focus{
       padding: 14px 17px;
 }
 /* subscribe section end */
+
+/* footer section start */
+.footer_container{
+      padding: 150px 8%;
+      background-color: #000;
+}
+
+.footer_title{
+      text-align: center;
+      color: #fff;
+}
+/* footer section end */
