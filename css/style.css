@@ -75,6 +75,7 @@ body{
 
 .feature_container{
       padding: 80px 8%;
+      padding-top: 30px;
 }
 
 .feature_title,.instagram_title {
@@ -152,6 +153,7 @@ body{
 
 .delivery_container{
       padding: 80px 8%;
+      padding-top: 30px;
 }
 
 .delivery_inner{
@@ -188,7 +190,22 @@ body{
 }
 
 .hot_deal_text{
-      padding: 0px 30% 0 0;
+      /* border: 1px solid black; */
+      padding: 0px 10% 0 10%;
+      width: 50%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.hot_deal_image{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* border: 1px solid black; */
+      width: 100%;
 }
 
 /* hot deal section end */
@@ -196,7 +213,8 @@ body{
 /* instagram section start */
 
 .instagram_container{
-      padding: 80px 8%;
+      padding: 100px 8%;
+      padding-top: 30px;
 }
 
 .instagram_images{
@@ -214,6 +232,7 @@ body{
 
 .subscribe_container{
       padding: 80px 8%;
+      padding-top: 0;
 }
 
 .subscrive_bg_image{
@@ -251,12 +270,22 @@ input[type="text"]:focus{
 
 /* footer section start */
 .footer_container{
-      padding: 150px 8%;
-      background-color: #000;
+      padding: 100px 8%;
+      background-color: #111010;
 }
 
 .footer_title{
       text-align: center;
       color: #fff;
+}
+
+.footer_sub_title{
+      color: #adadad;
+      margin-bottom: 20px;
+}
+
+small{
+      font-size: 12px;
+      color: #ffffff48;
 }
 /* footer section end */
