@@ -9,31 +9,18 @@ body{
       font-family: 'Poppins', sans-serif;
 }
 
-/*  */
-
-/* banner section start */
-
-.banner_container{
-     height: 100vh;
-     padding: 0 8%;
-     display: flex;
-     justify-content: space-between;
-     align-items: center; 
-     background-color: #FDEDF2;
+.all_section_title{
+      font-size: 25px;
+      margin-bottom: 0px;
 }
 
-.banner_text h1{
-      font-size: 65px;
-      line-height: 80px;
-}
-
-.banner_text p{
+.all_section_sub_title{
       font-size: 14px;
-      padding: 20px 50% 20px 0;
+      padding: 10px 0;
       color: #686868;
 }
 
-.banner_text button{
+.all_button{
       padding: 15px 40px;
       background-color: #E45373;
       color: #fff;
@@ -42,6 +29,34 @@ body{
       font-weight: 600;
       border-radius: 5px;
       border: none;
+      margin-top: 20px;
+      cursor: pointer;
+}
+
+.color_text{
+      color: rgba(229, 84, 115, 1);
+}
+
+/* ========================================= */
+
+/* banner section start */
+
+.banner_container{
+     height: 90vh;
+     padding: 0 8%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center; 
+     background-color: #FDEDF2;
+}
+
+.banner_text h1{
+      font-size: 50px;
+      line-height: 60px;
+}
+
+.banner_text p{
+      padding: 20px 30% 20px 0;
 }
 
 .banner_image {
@@ -50,4 +65,186 @@ body{
       align-items: end;
 }
 
+.banner_image img{
+      width: 120%;
+}
+
 /* banner section end */
+/* ================================ */
+/* feature section start */
+
+.feature_container{
+      padding: 80px 8%;
+}
+
+.feature_title,.instagram_title {
+      text-align: center;
+      padding: 50px 0;
+}
+
+.feature_title h2{
+      padding-bottom: 10px ;
+}
+
+.feature_title p{
+      font-size: 14px;
+      color: #686868;
+}
+
+.feature_images{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.all_flower_card_one{
+      background-color: rgba(167, 33, 98, 0.15);
+      height: 350px;
+      width: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+      padding: 0px 20px;
+      border-radius: 50% 50% 0px 0;
+}
+
+.all_flower_card_two{
+      background-color: rgba(5, 151, 160, 0.15);
+      height: 350px;
+      width: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 20px;
+      border-radius: 50% 50% 0px 0;
+}
+
+.all_flower_card_three{
+      background-color: rgba(71, 125, 17, 0.15);
+      height: 350px;
+      width: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+      padding: 0px 20px;
+      border-radius: 50% 50% 0px 0;
+}
+
+.flower_image{
+      width: 70%;
+}
+
+.flower_title{
+      text-align:  center;
+      padding: 15px 0;
+
+}
+
+.flower_title h4{
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: underline;
+}
+
+/* feature section end */
+
+/* delivery section start */
+
+.delivery_container{
+      padding: 80px 8%;
+}
+
+.delivery_inner{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: rgba(39, 39, 39, 0.05);
+      padding: 60px 0;
+      border-radius: 10px;
+}
+
+.delivery_card{
+      text-align: center;
+}
+
+.delivery_card img{
+      width: 60px;
+}
+
+.delivery_card p{
+      font-size: 14px;
+      padding: 10px;
+}
+/* delivery section end */
+
+/* hot deal section start */
+
+.hot_deal_container{
+      padding: 80px 8%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(229, 84, 115, 0.05);
+}
+
+.hot_deal_text{
+      padding: 0px 30% 0 0;
+}
+
+/* hot deal section end */
+
+/* instagram section start */
+
+.instagram_container{
+      padding: 80px 8%;
+}
+
+.instagram_images{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+
+.instagrma_image{
+      width: 95%;
+}
+/* instagram section end */
+
+/* subscribe section start */
+
+.subscribe_container{
+      padding: 80px 8%;
+}
+
+.subscrive_bg_image{
+      background-image: url('../images/Rectangle\ 9.png');
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 10px;
+      padding: 100px 0;
+}
+
+.subscribe_title{
+      text-align: center;
+}
+
+.subscribe_form{
+      text-align: center;
+}
+
+input[type="text"]{
+      width: 50%;
+      padding: 14px 10px;
+      border: none;
+      font-family: 'Poppins', sans-serif;
+}
+
+input[type="text"]:focus{
+      outline: none;
+}
+
+.subscribe_btn{
+      padding: 14px 17px;
+}
+/* subscribe section end */
